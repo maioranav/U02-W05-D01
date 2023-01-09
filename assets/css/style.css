@@ -270,6 +270,9 @@ footer a {
     font-size: 3.1em;
     line-height: 1.1em;
   }
+  header nav li a::before {
+    font-size: 1.3em;
+  }
   #picture img {
     width: 70px;
     height: 70px;
@@ -315,5 +318,94 @@ footer a {
   }
   footer {
     font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  * {
+    font-size: 1.8rem;
+  }
+  header,
+  main,
+  footer {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+  }
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  header * {
+    margin: 0;
+    padding: 0;
+  }
+  header div img {
+    margin: -30px;
+    margin-right: 20px;
+  }
+  header p,
+  header a {
+    font-weight: 400;
+  }
+  article h1 {
+    font-size: 2.6em;
+  }
+  #picture img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -7px;
+  }
+  ul,
+  ol {
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  article li {
+    line-height: 2em;
+  }
+  table th:nth-child(1) {
+    padding: 10px 50px;
+  }
+  table th:nth-child(2) {
+    padding: 10px 70px;
+  }
+  table th:nth-child(3) {
+    padding: 10px 120px;
+  }
+  iframe,
+  section {
+    width: 49%;
+    display: inline-block;
+    height: 250px;
+    margin-bottom: 0;
+  }
+  section {
+    transform: translateY(-20%);
+    border-radius: 20px;
+  }
+  aside {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  aside h2 {
+    width: 90%;
+  }
+  aside div {
+    width: 33%;
+  }
+  footer {
+    font-size: 1.2em;
+  }
+  footer address {
+    padding-left: 140px;
+    padding-right: 140px;
   }
 }
