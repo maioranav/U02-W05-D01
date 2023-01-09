@@ -260,3 +260,60 @@ footer a {
     font-size: 2.2rem;
   }
 }
+
+@media screen and (min-width: 768px) {
+  * {
+    font-size: 2rem;
+    line-height: 3.5rem;
+  }
+  h1 {
+    font-size: 3.1em;
+    line-height: 1.1em;
+  }
+  #picture img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: -8px;
+  }
+  article ul,
+  article ol {
+    line-height: 3.1rem;
+  }
+  article h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+  }
+  table {
+    font-size: 0.8em;
+    margin: 100px auto;
+    margin-top: 80px;
+  }
+  table th,
+  table td {
+    padding: 10px 30px;
+  }
+  section h2 {
+    padding: 3px;
+  }
+  fieldset input {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 65%;
+  }
+  fieldset button {
+    padding: 5px 30px;
+    font-size: 60%;
+  }
+  aside h2 {
+    padding: 5px;
+  }
+  aside a {
+    font-size: 85%;
+  }
+  aside div p:last-child {
+    font-size: 70%;
+  }
+  footer {
+    font-size: 2rem;
+  }
+}
